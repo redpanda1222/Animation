@@ -14,7 +14,7 @@ class Animator {
             this.xStart + this.width*frame, this.yStart,
             this.width, this.height,
             x, y,
-            this.width, this.height);
+            150, 150);
     };
 
     currentFrame() {
