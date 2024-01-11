@@ -1,11 +1,11 @@
-class GrantJump {
+class FlashRun {
     constructor(game) {
         this.game = game;
-        this.animator = new Animator(ASSET_MANAGER.getAsset("./spritesheet_grant1.png"), 0, 0, 165, 300, 11, 0.1);
+        this.animator = new Animator(ASSET_MANAGER.getAsset("./flashRun_sprite.png"), 0, 0, 29, 30, 6, 0.1);
 
         this.x = 0;
-        this.y = 150;
-        this.speed = 250;
+        this.y = 300;
+        this.speed = 800;
     };
 
     update() {
