@@ -5,7 +5,7 @@ class FlashRun {
 
         this.x = 0;
         this.y = 300;
-        this.speed = 1000;
+        this.speed = 1500;
     };
 
     update() {
