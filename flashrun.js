@@ -5,7 +5,7 @@ class FlashRun {
 
         this.x = 0;
         this.y = 300;
-        this.speed = 1000;
+        this.speed = 1500;
     };
 
     update() {
@@ -14,6 +14,6 @@ class FlashRun {
     };
 
     draw(ctx) {
-        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y);
+        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y, 150, 150);
     };
 };

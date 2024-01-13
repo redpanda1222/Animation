@@ -12,7 +12,7 @@ class Vexy {
     };
 
     draw(ctx) {
-        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y);
+        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y, 150, 150);
     };
 };
 
@@ -30,7 +30,7 @@ class Vexy1 {
     };
 
     draw(ctx) {
-        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y);
+        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y, 150, 150);
     };
 };
 
@@ -48,7 +48,7 @@ class Vexy2 {
     };
 
     draw(ctx) {
-        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y);
+        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y, 150, 150);
     };
 };
 
@@ -66,7 +66,7 @@ class Vexy3 {
     };
 
     draw(ctx) {
-        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y);
+        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y, 150, 150);
     };
 };
 
@@ -84,7 +84,7 @@ class Vexy4 {
     };
 
     draw(ctx) {
-        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y);
+        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y, 150, 150);
     };
 };
 
@@ -102,7 +102,7 @@ class Vexy5 {
     };
 
     draw(ctx) {
-        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y);
+        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y, 150, 150);
     };
 };
 
@@ -120,6 +120,6 @@ class Vexy6 {
     };
 
     draw(ctx) {
-        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y);
+        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y, 150, 150);
     };
 };

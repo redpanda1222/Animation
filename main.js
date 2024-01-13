@@ -6,6 +6,7 @@ ASSET_MANAGER.queueDownload("./spritesheet_grant.png")
 ASSET_MANAGER.queueDownload("./spritesheet_grant1.png")
 ASSET_MANAGER.queueDownload("./flashRun_sprite.png")
 ASSET_MANAGER.queueDownload("./vexy.png")
+ASSET_MANAGER.queueDownload("./soyobon.png")
 
 ASSET_MANAGER.downloadAll(() => {
 	const canvas = document.getElementById("gameWorld");
@@ -21,6 +22,7 @@ ASSET_MANAGER.downloadAll(() => {
 	gameEngine.addEntity(new Vexy4(gameEngine));
 	gameEngine.addEntity(new Vexy5(gameEngine));
 	gameEngine.addEntity(new Vexy6(gameEngine));
+	gameEngine.addEntity(new Soyobon(gameEngine));
 
 	gameEngine.init(ctx);
 

@@ -1,10 +1,10 @@
-class GrantJump {
+class Soyobon {
     constructor(game) {
         this.game = game;
-        this.animator = new Animator(ASSET_MANAGER.getAsset("./spritesheet_grant1.png"), 0, 0, 165, 300, 11, 0.1);
+        this.animator = new Animator(ASSET_MANAGER.getAsset("./soyobon.png"), 0, 0, 29, 36, 2, 0.2);
 
         this.x = 0;
-        this.y = 150;
+        this.y = 718;
         this.speed = 250;
     };
 
@@ -14,6 +14,6 @@ class GrantJump {
     };
 
     draw(ctx) {
-        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y, 150, 150);
+        this.animator.drawFrame(this.game.clockTick, ctx, this.x, this.y, 50, 50);
     };
 };
