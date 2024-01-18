@@ -4,7 +4,7 @@ class AssetManager {
         this.errorCount = 0;
         this.cache = [];
         this.downloadQueue = [];
-    };
+    };  
 
     queueDownload(path) {
         console.log("Queueing " + path);
